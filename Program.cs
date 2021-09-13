@@ -1,7 +1,8 @@
 ﻿/*
 PROGRAMACION IMPERATIVA
-con las siguientes instrucciones IF, GOTO y LABEL
-calcula la media del array
+con las siguientes instrucciones exclusivamente IF, GOTO y LABEL
+
+Calcula la media del array
 
 Restricciones
     - todo variables globales
@@ -9,6 +10,7 @@ Restricciones
     - no usar llaves {} para bloques de instruciones
     - if sin else.
 */
+
     using System;
 
     var notas = new []{ 7.5M, 4, 6, 5, 4, 6.5M, 7.5M };
