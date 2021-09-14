@@ -2,7 +2,8 @@
 PROGRAMACION ESTRUCTURADA POR PROCEDIMIENTO O SUBRUTINAS
 Calcula la media del array
 
-Puedes usar FOR, WHILE, DO y llaves {}
+Puedes usar FOR, WHILE, DO y 
+>>> llaves UNICAMENTE para definir las funciones {}
 Debes usar funciones sin paŕametros ni retorno
 
 Restricciones:
@@ -17,7 +18,7 @@ int index;
 decimal media;
 
 Incializacion();
-Proceso();
+while (index < notas.Length) Proceso();
 Finalizacion();
 
 
@@ -25,19 +26,15 @@ void Incializacion()
 {
     Console.WriteLine("Inicializamos los datos");
     notas = new[] { 7.5M, 4, 6, 5, 4, 6.5M, 7.5M };
+    suma = 0;
+    index = 0;
 }
 
 void Proceso()
 {
-    Console.WriteLine("Procesamos el ciclo");
-    suma = 0;
-    index = 0;
-    while (index < notas.Length)
-    {
-        suma += notas[index];
-        index++;
-    }
-
+    //Console.WriteLine("Procesamos el ciclo");
+    suma += notas[index];
+    index++;
 }
 
 void Finalizacion()
