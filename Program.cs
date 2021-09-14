@@ -3,7 +3,7 @@ PROGRAMACION CON FUNCIONES PARÁMETORS * RETURN;
 Calcula la media del array
 
 Debes usar funciones con retorno y variables locales;
-
+Anímate a calcular la suma de las notas de forma recursiva.
 Restricciones:
     - todo variables globales
 */
@@ -30,6 +30,7 @@ decimal CalculoDeLaSuma(decimal[] datos)
     while (index < datos.Length);
     return suma;
 }
+
 
 decimal CalculoDeLaMedia(decimal total, int nElementos) => total / nElementos;
 
