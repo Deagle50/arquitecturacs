@@ -4,7 +4,14 @@ Calcula la media del array
 
 Decide cómo representar los valores de nota
 cuando sabemos que cada nota la ha obtenifo un alumno.
+
+
+
+
+
+
 Luis, Marta, Marcos, Aroa, Nerea, Kike, Juan
+H,    M,     H,      M,    M,     H,    H
 7.5M, 4,     6,      5,    4,     6.5M, 7.5M 
 
 Estudiar los distintos tipos de datos que nos ofrece c# para abstracciones de objetos del mundo real
@@ -15,6 +22,16 @@ clases https://docs.microsoft.com/es-es/dotnet/csharp/fundamentals/types/classes
 y Dictionary<string, object> https://docs.microsoft.com/es-es/dotnet/api/system.collections.generic.dictionary-2?view=net-5.0
 
 */
+
+
+
+
+
+
+
+
+
+
 
 using System;
 using System.Collections.Generic;
